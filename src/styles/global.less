@@ -1,0 +1,33 @@
+@import "./var.less";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: @words;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue",
+    "微软雅黑", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: @primary;
+  }
+}
+
+ul{
+  list-style: none;
+}
